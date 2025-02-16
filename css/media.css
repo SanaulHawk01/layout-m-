@@ -1,12 +1,24 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
-	.banner{
+	body{
 		background-color: #5807f1;
 	}
 
-    .banner h1{
+    header h1{
 	    font-size: 30px;
+    }
+
+    .b_content{
+        width: 97.8%;
+    }
+
+    .b_content h1{
+	font-size: 21px;
+    }
+
+    .b_content p{
+	font-size: 13px;
     }
 
 }
@@ -14,43 +26,77 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-	.banner{
+	body{
 		background-color: #0798f1;
 	}
 
-    .banner h1{
+    header h1{
 	    font-size: 30px;
+    }
+
+    .b_content{
+        width: 47.9%;
+    }
+
+    .b_content h1{
+	font-size: 24px;
+    }
+
+    .b_content p{
+	font-size: 13px;
     }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-	.banner{
+	body{
 		background-color: #07f1ad;
 	}
 
-    .banner h1{
+    header h1{
 	    font-size: 45px;
     }
+
+    .container{
+	max-width: 97%;
+    }
+
+    .b_content {
+    width: 47.9%;
+    }
+
+    .b_content h1{
+	font-size: 24px;
+    }
+
+
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-	.banner{
+	body{
 		background-color: #c2f107;
 	}
 
-    .banner h1{
+    header h1{
 	    font-size: 45px;
+    }
+
+    .b_content h1{
+	font-size: 22px;
+    }
+
+    .b_content p{
+	font-size: 14px;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-	.banner{
+	body{
 		background-color: #f17907;
 	}
 }
