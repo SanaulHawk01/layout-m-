@@ -1,0 +1,147 @@
+/*font family*/
+
+    @font-face{}
+
+/*font family*/
+
+/*Common css Start*/
+
+body{
+	margin: 0;
+/*	background-color: #f70808;*/
+}
+
+/*Common css End*/
+
+/*Header start*/
+
+header{
+	padding: 25px 0 0;
+	text-align: center;
+}
+
+header h1{
+	font-size: 60px;
+}
+
+/*Header end*/
+
+/*Banner start*/
+
+.banner{
+	padding: 25px 0;
+}
+
+.container{
+	padding: 0;
+	max-width: 95%;
+	overflow: hidden;
+/*	border: 1px solid red;*/
+}
+
+.b_content{
+	margin: 1% 1%;
+	width: 31.3%;
+	box-sizing: border-box;
+	float: left;
+/*	border: 1px solid green;*/
+}
+
+.b_img{}
+
+.b_img img{
+	width: 100%;
+}
+
+.b_content h1{
+	margin: 15px 0 25px;
+	font-size: 25px;
+}
+
+.b_content p{
+	font-size: 15px;
+}
+
+/*Banner end*/
+
+/*Footer start*/
+
+footer{
+	padding: 35px 0;
+	background-color: #F0F0F0;
+}
+
+.f_content{
+	padding: 0;
+}
+
+.support{
+	width: 25%;
+	float: left;
+/*	border: 1px solid red;*/
+}
+.support ul{
+	margin: 0;
+	padding-left: 0;
+	float: left;
+}
+.support ul li{
+	float: left;
+	list-style: none;
+}
+.support ul li i{
+	color: black;
+}
+.support ul li a{
+	padding: 0 10px;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+.support ul li:nth-child(2) a{
+	padding-left: 0;
+}
+
+.support ul li a:hover{
+	color: #626262;
+}
+
+.support ul li a i{}
+
+.fullow{
+	width: 40%;
+	float: right;
+/*	border: 1px solid red;*/
+}
+.fullow ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.fullow ul li{
+	float: left;
+	list-style: none;
+}
+.fullow ul li a{}
+.fullow ul li a i{
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+.fullow ul li a i:hover{
+	color: #626262;
+}
+
+.d-color{
+	color: #5165F6;
+}
+
+.i-color{
+	color: #D6005C;
+}
+
+.m-color{
+	color: #000000;
+}
+
+/*Footer end*/
