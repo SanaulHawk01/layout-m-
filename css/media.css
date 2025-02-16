@@ -21,6 +21,28 @@
 	font-size: 13px;
     }
 
+    footer{
+	padding: 25px 0;
+    }
+
+    .support{
+	width: 50%;
+    }
+
+    .support ul li a{
+    	padding: 0 3px;
+    	font-size: 10px;
+    }
+
+    .fullow{
+	width: 40%;
+    }
+
+    .fullow ul li a i{
+    	padding: 0 3px;
+    	font-size: 10px;
+    }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -45,6 +67,29 @@
     .b_content p{
 	font-size: 13px;
     }
+
+    footer{
+	padding: 25px 0;
+    }
+
+    .support{
+	width: 50%;
+    }
+
+    .support ul li a{
+    	padding: 0 3px;
+    	font-size: 10px;
+    }
+
+    .fullow{
+	width: 40%;
+    }
+
+    .fullow ul li a i{
+    	padding: 0 3px;
+    	font-size: 10px;
+    }
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -70,6 +115,27 @@
 	font-size: 24px;
     }
 
+    footer{
+	padding: 30px 0;
+    }
+
+    .support{
+	width: 50%;
+    }
+
+    .support ul li a{
+    	padding: 0 5px;
+    	font-size: 12px;
+    }
+
+    .fullow{
+	width: 40%;
+    }
+
+    .fullow ul li a i{
+    	padding: 0 5px;
+    	font-size: 12px;
+    }
 
 }
 
@@ -91,6 +157,29 @@
     .b_content p{
 	font-size: 14px;
     }
+
+    footer{
+	padding: 35px 0;
+    }
+
+    .support{
+	width: 50%;
+    }
+
+    .support ul li a{
+    	padding: 0 7px;
+    	font-size: 13px;
+    }
+
+    .fullow{
+	width: 40%;
+    }
+
+    .fullow ul li a i{
+    	padding: 0 7px;
+    	font-size: 13px;
+    }
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -99,6 +188,29 @@
 	body{
 		background-color: #f17907;
 	}
+
+	footer{
+	padding: 35px 0;
+    }
+
+    .support{
+	width: 60%;
+    }
+
+    .support ul li a{
+    	padding: 0 7px;
+    	font-size: 13px;
+    }
+
+    .fullow{
+	width: 40%;
+    }
+
+    .fullow ul li a i{
+    	padding: 0 7px;
+    	font-size: 13px;
+    }
+
 }
 
 /*Extra large devices (large desktops, 1400px and up)*/
