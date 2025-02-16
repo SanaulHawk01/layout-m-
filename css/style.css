@@ -67,7 +67,7 @@ header h1{
 /*Footer start*/
 
 footer{
-	padding: 40px 0;
+	padding: 35px 0;
 	background-color: #F0F0F0;
 }
 
@@ -93,7 +93,8 @@ footer{
 	color: black;
 }
 .support ul li a{
-	padding: 0 17px;
+	padding: 0 10px;
+	font-size: 14px;
 	color: black;
 	text-decoration: none;
 }
@@ -124,6 +125,7 @@ footer{
 .fullow ul li a{}
 .fullow ul li a i{
 	padding: 0 10px;
+	font-size: 14px;
 }
 
 .fullow ul li a i:hover{
